@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poster Run サポート</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+  :root { --bg: #fafafa; --fg: #1a1a1a; --muted: #6b6b6b; --border: #e5e5e5; --accent: #751a7b; --surface: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #141414; --fg: #e8e8e8; --muted: #999; --border: #2a2a2a; --accent: #c77dcc; --surface: #1c1c1c; color-scheme: dark; } }
+  :root[data-theme="dark"] { --bg: #141414; --fg: #e8e8e8; --muted: #999; --border: #2a2a2a; --accent: #c77dcc; --surface: #1c1c1c; color-scheme: dark; }
+  body { background: var(--bg); color: var(--fg); font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.8; padding-inline: 24px; padding-block: 0; max-width: 640px; margin: 0 auto; }
+  .header { padding-top: 48px; padding-bottom: 32px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
+  .app-name { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin: 0 0 4px; }
+  .app-name span { color: var(--accent); }
+  .subtitle { font-size: 14px; color: var(--muted); margin: 0; }
+  .updated { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  h2 { font-size: 17px; font-weight: 700; margin: 0 0 12px; text-wrap: balance; }
+  section { margin-bottom: 36px; }
+  p { font-size: 14px; margin: 0 0 12px; color: var(--fg); }
+  ul { font-size: 14px; padding-left: 20px; margin: 0 0 12px; }
+  li { margin-bottom: 6px; }
+  .data-table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 16px 0; }
+  .data-table th, .data-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  .data-table th { font-weight: 500; color: var(--muted); font-size: 11px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 4px; background: var(--accent); color: #fff; }
+  .contact { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-top: 8px; }
+  .contact p { margin: 0; }
+  .footer { border-top: 1px solid var(--border); padding: 24px 0 48px; margin-top: 40px; }
+  .footer p { font-size: 12px; color: var(--muted); margin: 0; }
+</style>
+<body>
+<div class="header">
+  <h1 class="app-name">Poster <span>Run</span></h1>
+  <p class="subtitle">サポート</p>
+</div>
+<section><h2>このアプリについて</h2><p>Poster Run は、たくさんの場所を最短の順番で回るための iPhone アプリです。選挙ポスターの掲示場まわりのために作りましたが、ポスティングや配達、訪問まわりなどにも使えます。</p></section>
+<section><h2>使い方</h2><ul><li>「出発地」で、出発する場所を「住所で設定」か「現在地」で決めます。</li><li>「立ち寄り先」に回りたい場所を追加します。「まとめて貼り付け」で、Excel やメモから住所の一覧をまとめて登録できます。地図を長押しして、その場所を追加することもできます。</li><li>移動手段（車・バイク・自転車・徒歩・電車）を選んで「最短ルートを計算」を押すと、回る順番と到着予定時刻が表示されます。</li><li>「Google マップでナビ開始」で、その順番のまま Google マップのナビを始められます。</li><li>回り終えた場所は、丸印を押して「貼った」にします。時刻つきで記録され、「進み具合を報告」で LINE などに送れます。</li><li>右上のメニューの「担当分け」では、掲示場の一覧を人数分に分けて、班ごとに送れます。受け取った人は、その文章をコピーして「まとめて貼り付け」に入れるだけで回り始められます。</li></ul></section>
+<section><h2>うまくいかないとき</h2><ul><li><strong>住所が見つからない</strong> — 都道府県や市区町村から書くと見つかりやすくなります。建物名は省いてください。</li><li><strong>たくさん貼り付けると時間がかかる</strong> — Apple のマップの検索回数に制限があるため、途中で少し待つことがあります。そのままお待ちください。</li><li><strong>現在地が出ない</strong> — 「設定」アプリの「Poster Run」で、位置情報を「このAppの使用中のみ許可」にしてください。</li><li><strong>電車のルートが地図に出ない</strong> — 電車は所要時間だけで順番を決めます。乗り換えの案内は、Google マップで表示されます。</li></ul></section>
+<section><h2>お問い合わせ</h2><p>アプリについてのご質問や不具合のご報告は、以下までご連絡ください。</p><div class="contact"><p>m.minus.app@gmail.com</p></div></section>
+<section><h2>関連ページ</h2><ul><li><a href="privacy.html" style="color:var(--accent)">プライバシーポリシー</a></li></ul></section>
+<div class="footer"><p>© 2026 Kosuke Okahara</p></div>
+</body>
+</html>
